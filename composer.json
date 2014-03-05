@@ -1,14 +1,14 @@
 {
 	"name": "atomita/wp-radio-button-terms",
-	"keywords": ["wordpress", "theme"],
+	"keywords": ["wordpress", "theme", "radio"],
 	"license": "LGPLv3",
 	"authors": [
 		{
 			"name": "atomita"
 		}
 	],
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"autoload": {
-		"classmap": ["src/", "src/Atomita/Wordpress/Walker/"]
+		"classmap": ["src/", "src/Atomita/Wordpress/", "src/Atomita/Wordpress/Walker/"]
 	}
 }
