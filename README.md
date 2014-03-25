@@ -1,2 +1,2 @@
-wp-radio-button-terms
+WordPress Radio Button Terms
 =====================
