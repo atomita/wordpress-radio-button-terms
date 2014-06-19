@@ -1,6 +1,6 @@
 <?php
 
-namespace Atomita\Wordpress\Walker;
+namespace atomita\wordpress\walker;
 
 /**
  * change the radio button from the check box of the term post screen

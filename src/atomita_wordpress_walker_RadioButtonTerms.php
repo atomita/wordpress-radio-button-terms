@@ -5,7 +5,7 @@ if (false){
 	/**
 	 * change the radio button from the check box of the term post screen
 	 */
-	class Atomita_Wordpress_Walker_RadioButtonTerms extends Walker_Category_Checklist
+	class atomita_wordpress_walker_RadioButtonTerms extends Walker_Category_Checklist
 	{
 
 		function start_el(&$output, $category, $depth = 0, $args = array(), $id = 0){}
@@ -19,12 +19,12 @@ else{
 
 	eval(str_replace(
 		array(
-			'namespace Atomita\\Wordpress\\Walker;',
+			'namespace atomita\\wordpress\\walker;',
 			'class RadioButtonTerms extends \Walker_Category_Checklist',
 		),
 		array(
 			'',
-			'class Atomita_Wordpress_Walker_RadioButtonTerms extends Walker_Category_Checklist',
+			'class atomita_wordpress_walker_RadioButtonTerms extends Walker_Category_Checklist',
 		),
 		$definition));
 }

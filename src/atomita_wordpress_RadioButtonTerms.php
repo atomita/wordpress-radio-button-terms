@@ -5,7 +5,7 @@ if (false){
 	/**
 	 * change the radio button from the check box of the term post screen
 	 */
-	class Atomita_Wordpress_RadioButtonTerms
+	class atomita_wordpress_RadioButtonTerms
 	{
 
 		/**
@@ -39,14 +39,14 @@ else{
 
 	eval(str_replace(
 		array(
-			'namespace Atomita\\Wordpress;',
+			'namespace atomita\\wordpress;',
 			'class RadioButtonTerms',
-			'new Walker\\RadioButtonTerms()',
+			'new walker\\RadioButtonTerms()',
 		),
 		array(
 			'',
-			'class Atomita_Wordpress_RadioButtonTerms',
-			'new Atomita_Wordpress_Walker_RadioButtonTerms()',
+			'class atomita_wordpress_RadioButtonTerms',
+			'new atomita_wordpress_walker_RadioButtonTerms()',
 		),
 		$definition));
 }

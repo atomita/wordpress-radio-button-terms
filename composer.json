@@ -7,8 +7,8 @@
 			"name": "atomita"
 		}
 	],
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"autoload": {
-		"classmap": ["src/", "src/Atomita/Wordpress/", "src/Atomita/Wordpress/Walker/"]
+		"classmap": ["src/", "src/atomita/wordpress/", "src/atomita/wordpress/walker/"]
 	}
 }

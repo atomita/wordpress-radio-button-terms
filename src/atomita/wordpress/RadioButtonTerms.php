@@ -1,6 +1,6 @@
 <?php
 
-namespace Atomita\Wordpress;
+namespace atomita\wordpress;
 
 /**
  * change the radio button from the check box of the term post screen
@@ -56,7 +56,7 @@ class RadioButtonTerms
 	{
 		if ($this->taxonomy == $args['taxonomy']){
 			$args['checked_ontop'] = $this->checked_ontop;
-			$args['walker']	   = new Walker\RadioButtonTerms();
+			$args['walker']	   = new walker\RadioButtonTerms();
 		}
 		
 		return $args;
